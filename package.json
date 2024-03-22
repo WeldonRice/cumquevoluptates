@@ -1,0 +1,33 @@
+{
+  "name": "cumquevoluptates",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "pullall": "dev-env-installer pullall",
+    "buildall": "dev-env-installer buildall",
+    "testall": "dev-env-installer testall",
+    "devInstall": "dev-env-installer install"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "typescript": "1.8.7"
+  },
+  "typings": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WeldonRice/cumquevoluptates.git"
+  },
+  "keywords": [
+    "officia",
+    "content",
+    "cupiditate"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typings": "^0.5.1",
+    "dev-env-installer": "0.0.5",
+    "rimraf": "*"
+  },
+  "author": "AllisonRunolfsson"
+}
